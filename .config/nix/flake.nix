@@ -32,6 +32,7 @@
           "bat"
           "eza"
           "stow"
+          "lazygit"
         ];
         casks = [
           "wezterm"
