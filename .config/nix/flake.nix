@@ -1,4 +1,4 @@
-{ description = "Example nix-darwin system flake";
+{ description = "zen nix-darwin system flake";
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/8809585e6937d0b07fc066792c8c9abf9c3fe5c4";
     nix-darwin.url = "github:LnL7/nix-darwin";

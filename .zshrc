@@ -77,9 +77,11 @@ _fzf_comprun() {
 }
 
 # Alias
-alias ls='eza --color=always --long --git --no-filesize --icons=always --no-time --no-user --no-permissions'
+alias ls='eza --color=always '
 alias c='clear'
 
 # Shell integrations
 eval "$(fzf --zsh)"
 eval "$(zoxide init --cmd cd zsh)"
+
+export PATH="$PATH:/Users/kiga/bootDev/worldbanc/private/bin"
