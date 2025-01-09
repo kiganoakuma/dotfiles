@@ -3,7 +3,6 @@
 --leader key set
 vim.g.mapleader = " "
 
-
 --locals variables
 local keymap = vim.keymap -- for conciseness
 
@@ -13,10 +12,9 @@ keymap.set("v", "<leader>se", '"xy/<C-r>x\\><CR>N')
 -- macros
 keymap.set("i", "jk", "<ESC>", { desc = "Exit insert mode with jk" })
 keymap.set("n", ";", ":", { desc = "move to command mode with ; instead of : " })
-keymap.set('n', '<C-s>', ':w<CR>')
-keymap.set('n', '<C-q>', ':q<CR>')
-keymap.set('n', '<LEADER>qq', ':qa<CR>')
-
+keymap.set("n", "<C-s>", ":w<CR>")
+keymap.set("n", "<C-q>", ":q<CR>")
+keymap.set("n", "<LEADER>qq", ":qa<CR>")
 
 keymap.set("n", "<leader>nh", ":nohl<CR>", { desc = "Clear search highlights" })
 
@@ -30,3 +28,10 @@ vim.keymap.set("n", "<LEADER><LEADER>x", "<cmd>source %<CR>")
 vim.keymap.set("n", "<LEADER>x", ":.lua<CR>")
 vim.keymap.set("v", "<LEADER>x", ":lua<CR>")
 
+-- toggle wrapping and linebreak for reading .md files
+vim.keymap.set("n", "<leader>wr", function()
+	vim.wo.wrap = not vim.wo.wrap
+	vim.wo.linebreak = not vim.wo.linebreak
+end)
+
+vim.keymap.set("n", "<LEADER>fo", "za", { desc = "toggle fold" })

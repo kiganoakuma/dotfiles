@@ -1,0 +1,20 @@
+[
+  {
+    "part": "a",
+    "value": "676640840350",
+    "when": "2025-01-01 19:30:45.597830-05:00",
+    "message": "That's not the right answer; your answer is too low.  If you're stuck, make sure you're using the full input data; there are also some general tips on the about page, or you can ask for hints on the subreddit.  Please wait one minute before trying again. [Return to Day 7]"
+  },
+  {
+    "part": "a",
+    "value": "5512534574980",
+    "when": "2025-01-01 20:15:08.782318-05:00",
+    "message": "That's the right answer!  You are one gold star closer to finding the Chief Historian. [Continue to Part Two]"
+  },
+  {
+    "part": "b",
+    "value": "328790210468594",
+    "when": "2025-01-01 20:53:46.720555-05:00",
+    "message": "That's the right answer!  You are one gold star closer to finding the Chief Historian.You have completed Day 7! You can [Shareon\n  Bluesky\nTwitter\nMastodon] this victory or [Return to Your Advent Calendar]."
+  }
+]

@@ -1,0 +1,14 @@
+[
+  {
+    "part": "a",
+    "value": "4647",
+    "when": "2024-12-31 20:49:07.551395-05:00",
+    "message": "That's the right answer!  You are one gold star closer to finding the Chief Historian. [Continue to Part Two]"
+  },
+  {
+    "part": "b",
+    "value": "1723",
+    "when": "2025-01-01 07:25:27.405634-05:00",
+    "message": "That's the right answer!  You are one gold star closer to finding the Chief Historian.You have completed Day 6! You can [Shareon\n  Bluesky\nTwitter\nMastodon] this victory or [Return to Your Advent Calendar]."
+  }
+]

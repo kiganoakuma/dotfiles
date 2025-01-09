@@ -38,5 +38,8 @@ opt.splitbelow = true -- split horizontal window to the bottom
 -- turn off swapfile
 opt.swapfile = false
 
-
-
+-- Folding settings
+vim.opt.foldmethod = "indent" -- or "syntax"
+vim.opt.foldnestmax = 10 -- maximum fold nest level
+vim.opt.foldlevel = 99 -- don't auto-fold anything when opening file
+vim.opt.foldenable = true -- enable foldin
